@@ -1,3 +1,21 @@
+graph TB;
+    A[요구 사항 분석] --> B[아키텍처 설계]
+    B --> C[데이터베이스 설계]
+    C --> D[백엔드 개발]
+    D --> E[프론트엔드 개발]
+    E --> F[인증 및 보안]
+    F --> G[결제 처리]
+    G --> H[테스팅]
+    H --> I[배포 및 유지보수]
+    I --> J[확장성 고려]
+
+classDiagram
+    class Database {
+        -호텔 정보
+        -예약 정보
+        -사용자 정보
+    }
+
 sequenceDiagram
     participant User
     participant System
