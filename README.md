@@ -50,7 +50,7 @@ classDiagram
     Hotel --> Room: 포함
     Hotel --> Reservation: 예약
     Room --> Reservation: 예약
-
+```
 
 
 ```mermaid
@@ -91,3 +91,4 @@ sequenceDiagram
     System-->>User: 로그아웃 성공
     deactivate System
     deactivate User
+```
